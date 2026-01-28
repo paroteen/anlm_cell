@@ -35,7 +35,7 @@ export const Login: React.FC<Props> = ({ onLogin }) => {
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
         <div className="bg-white p-8 text-center border-b border-gray-100">
           <img 
-            src="https://newlifekigali.org/wp-content/uploads/2022/07/NLC-Logo-3-scaled-300x101.png" 
+            src="/logo.png"
             alt="NewLife Logo" 
             className="mx-auto h-16 w-auto object-contain mb-4"
           />
