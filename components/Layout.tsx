@@ -47,7 +47,7 @@ export const Layout: React.FC<LayoutProps> = ({ user, children, onLogout, curren
 
   const Logo = () => (
     <img 
-      src="/logo.png"
+      src="https://newlifekigali.org/wp-content/uploads/2022/07/NLC-Logo-3-scaled-300x101.png"
       alt="NewLife Logo" 
       className="h-10 w-auto object-contain"
     />
