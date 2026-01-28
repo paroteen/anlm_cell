@@ -13,7 +13,6 @@ import {
   BookOpen,
   UserCog
 } from 'lucide-react';
-import LogoImg from '../Logo.png';
 
 interface LayoutProps {
   user: User;
@@ -48,7 +47,7 @@ export const Layout: React.FC<LayoutProps> = ({ user, children, onLogout, curren
 
   const Logo = () => (
     <img 
-      src={LogoImg}
+      src="/logo.png"
       alt="NewLife Logo" 
       className="h-10 w-auto object-contain"
     />
